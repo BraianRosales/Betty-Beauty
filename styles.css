@@ -1,4 +1,29 @@
 @charset "UTF-8";
+#content {
+  height: 100vh;
+  width: 88%;
+}
+
+#navbar {
+  font-size: 24px;
+  margin-top: 6em;
+}
+
+.nav-link {
+  color: #49d1e3 !important;
+}
+
+.nav-link:hover {
+  text-decoration: underline #78ecfb;
+  text-shadow: 1px 1px 2px gainsboro;
+}
+
+.brand {
+  margin-top: -25px;
+  margin-left: -40px;
+  width: 55%;
+}
+
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
  * Copyright 2011-2021 The Bootstrap Authors
@@ -11121,18 +11146,6 @@ textarea.form-control-lg {
 * {
   margin: 0px;
   padding: 0px;
-}
-
-.btn-test {
-  display: block;
-  margin: 0px auto;
-  margin-top: 30px;
-}
-
-#test-title {
-  color: darkturquoise;
-  text-align: center;
-  margin-top: 100px;
 }
 
 /*# sourceMappingURL=styles.css.map */

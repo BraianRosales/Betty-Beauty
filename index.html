@@ -9,54 +9,30 @@
     <script src="main.js"></script>
   </head>
   <body>
-    <div class="contained">
-      <h2 id="test-title">¡Comenzando el proyecto Betty Beauty!</h2>
-      <!-- Button trigger modal -->
-      <button 
-        type="button"
-        class="btn btn-primary btn-test"
-        data-bs-toggle="modal"
-        data-bs-target="#exampleModal"
-      >
-        Click en el modal
-      </button>
-
-      <!-- Modal -->
-      <div
-        class="modal fade"
-        id="exampleModal"
-        tabindex="-1"
-        aria-labelledby="exampleModalLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog">
-          <div class="modal-content">
-            <div class="modal-header">
-              <h5 class="modal-title" id="exampleModalLabel">Primer componente agregado.</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">Proyecto Betty Beauty.</div>
-            <div class="modal-footer">
-              <button
-                type="button"
-                class="btn btn-secondary"
-                data-bs-dismiss="modal"
-              >
-                Close
-              </button>
-              <button type="button" class="btn btn-primary">
-                Ok
-              </button>
-            </div>
-          </div>
+    <div class="container-fluid" id="content">
+      <header class="row border-bottom">
+        <div class="col">
+          <img class="brand" src="images/Betty Beauty Logo 2022.png">
         </div>
-      </div>
+        <div class="col" id="navbar">
+          <ul class="nav justify-content-end">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Mi historia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Porductos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Preguntas frecuentes</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Redes</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+    </div>
 
-      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   </body>
 </html>

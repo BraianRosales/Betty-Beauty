@@ -1,18 +1,8 @@
+@use "./css_modules/header";
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
+
 
 * {
   margin: 0px;
   padding: 0px;
-}
-
-.btn-test{
-    display: block;
-    margin: 0px auto;
-    margin-top: 30px;
-}
-
-#test-title {
-  color: darkturquoise;
-  text-align: center;
-  margin-top: 100px;
 }

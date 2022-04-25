@@ -1,0 +1,42 @@
+.accordion-item {
+  border: none !important;
+  border-bottom: 2px solid rgb(217, 217, 217)!important;
+}
+
+.accordion-item:hover{
+    border-bottom: 2px solid #32eff6!important;
+}
+
+.accordion-button {
+  color: black!important;
+  font-size: 19px !important;
+}
+
+.accordion-button:hover{
+    color: #0adde4 !important;
+}
+
+.accordion-button:focus {
+  box-shadow: inherit !important;
+}
+
+.accordion-button:not(.collapsed) {
+  border: none !important;
+  background-color: white !important;
+  text-decoration: none;
+}
+
+.accordion {
+  width: 80%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+#h4-accordion{
+    color: black;
+    margin-bottom: 50px;
+}
+
+.red-story{
+    width: 36%;
+}

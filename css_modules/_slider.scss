@@ -1,0 +1,22 @@
+#slider {
+    height: 750px;
+    overflow: hidden;
+    border-radius: 5px;
+  }
+  
+  #slider img {
+    height: 750px;
+    width: 90%;
+  }
+  
+  .carousel-caption {
+    color: deeppink!important;
+    text-align: center;
+    background-color: #b9feff;
+    opacity: 0.6;
+    border-radius: 15px;
+  }
+
+  .carousel{
+    margin-bottom: 80px;
+  }

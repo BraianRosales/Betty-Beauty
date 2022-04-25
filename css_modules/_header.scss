@@ -1,25 +1,33 @@
-#content {
-  height: 100vh;
-  width: 88%;
-}
-
-#navbar {
+.navbar {
   font-size: 22px;
-  margin-top: 5em;
 }
 
 .nav-link {
   color: #2f2f2f !important;
 }
 
-.nav-link:hover {
-  margin-top: -3px;
-  text-decoration: underline 1px #80f0ff;
-  text-shadow: 1px 1px 2px #cff4f8;
-}
-
 .brand {
   margin-top: -25px;
   margin-left: -40px;
-  width: 55%;
 }
+
+.text {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    #32eff6 90%,
+    #32eff6 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
+}
+
+.text:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+

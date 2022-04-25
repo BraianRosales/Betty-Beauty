@@ -1,8 +1,22 @@
 @use "./css_modules/header";
+@use "./css_modules/myStory";
+@use "./css_modules/slider";
+@use "./css_modules/accordion";
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
-
 
 * {
   margin: 0px;
   padding: 0px;
 }
+
+#content {
+  height: 100vh;
+  width: 85%;
+  margin: 0px auto;
+}
+
+.container-images {
+  width: 80%;
+  border-radius: 10px;
+}
+

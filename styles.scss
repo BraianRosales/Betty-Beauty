@@ -1,5 +1,5 @@
 @use "./css_modules/header";
-@use "./css_modules/myStory";
+@use "./css_modules/history";
 @use "./css_modules/slider";
 @use "./css_modules/accordion";
 @import "./node_modules/bootstrap/scss/bootstrap.scss";
@@ -20,3 +20,119 @@
   border-radius: 10px;
 }
 
+// efecto maquina de escribir
+
+.typewriter {
+  display: block;
+  text-align: center;
+  margin-bottom: 40px !important;
+  color: #07dce3;
+  font-size: 26px;
+  margin: 0px auto;
+
+  white-space: nowrap;
+  border-right: 4px solid;
+  width: 25ch;
+  text-shadow: 4px 1px 5px #c6c6c6;
+
+  animation: typing 2s steps(28), blink 0.5s infinite step-end alternate;
+  overflow: hidden;
+}
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+
+// efecto subrrayado abajo.
+
+.text {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    #32eff6 90%,
+    #32eff6 100%
+  );
+
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
+}
+
+.text:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+.text-titles {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent 90%,
+    rgb(252, 142, 201) 90%,
+    rgb(252, 142, 201) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 300ms;
+}
+
+.text-titles:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+}
+
+// efecto titulo.
+
+.title-effect {
+  background-image: linear-gradient(#f492c7, #d22a85);
+  background-repeat: no-repeat;
+  background-size: 0% 100%;
+  background-position-x: right;
+
+  transition: background-size 500ms;
+}
+
+.title-effect:hover {
+  background-size: 100% 100%;
+  background-position-x: left;
+  color: white;
+}
+
+// efecto link.
+
+.link-effect {
+  position: relative;
+  color: #07dce3;
+  text-decoration: none;
+  z-index: 1;
+  padding: 0 0.2rem;
+  transition: color 0.2s;
+}
+
+.link-effect::after {
+  content: "";
+  z-index: -1;
+  position: absolute;
+  inset: 92% 0 0 0;
+  background-color: #5ce1e6;
+  transition: inset 0.2s;
+}
+
+.link-effect:hover {
+  color: white !important;
+}
+
+.link-effect:hover::after {
+  inset: 0 0 0 0;
+}

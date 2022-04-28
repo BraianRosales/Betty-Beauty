@@ -1,0 +1,33 @@
+#slider {
+  height: 815px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+
+#slider img {
+  height: 815px;
+  width: 85%;
+  display: block;
+  margin: 0px auto;
+}
+
+.carousel-caption {
+  color: deeppink !important;
+  text-align: center;
+  background-color: #b9feff;
+  opacity: 0.7;
+  border-radius: 15px;
+}
+
+.carousel {
+  margin-bottom: 80px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 20% !important;
+}
+
+.carousel-indicators [data-bs-target] {
+  background-color: #fd5cb3 !important;
+}

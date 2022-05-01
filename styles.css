@@ -4,7 +4,19 @@
 .card{
   float: left;
   width: 19rem;
+  /* display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px; */
 }
+
+footer{
+  background-color: #07dce3;
+}
+
+.redes{
+  width: 50px;
+}
+
 
 .navbar {
   font-size: 22px;

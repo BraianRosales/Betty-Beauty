@@ -82,7 +82,34 @@
   padding-left: 1px;
   padding-right: 1px;
 }
+/* fin */
 
+/* categorias de productos  */
+
+#prods{
+  margin-top: 24px;
+}
+
+.categoryBb{
+  margin-top: 2em;
+}
+
+.titleProd1{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.imgProd1{
+  width: 200px;
+  height: 200px;
+  margin-bottom: 1em;
+}
+
+.priceProd{
+  padding-bottom: 1em;
+}
+
+/* footer */
 footer{
   background-color: #07dce3;
 }
@@ -90,8 +117,6 @@ footer{
 .redes{
   width: 50px;
 }
-
-
 /* FIN */
 
 .navbar {

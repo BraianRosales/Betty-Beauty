@@ -1,16 +1,16 @@
 @charset "UTF-8";
 .nav {
-  font-size: 28px;
+  font-size: 30px;
   margin-right: 100px;
   font-weight: 400;
-  font-family: "Courgette", cursive;
-  font-family: "Josefin Slab", serif;
+  font-family: "Special Elite", cursive;
 }
 
 .navbar {
   font-size: 26px;
   padding-bottom: 0px !important;
   box-shadow: 1px 2px 5px gainsboro !important;
+  background-color: aliceblue;
 }
 
 .nav-link {
@@ -25,7 +25,8 @@
 
 .brand {
   margin-top: -25px;
-  width: 30%;
+  width: 35%;
+  margin-left: -15px;
 }
 
 .historyContent {
@@ -41,17 +42,18 @@
 }
 
 .card-title {
-  width: 20%;
   margin: 0px auto;
   height: 33px;
   margin-bottom: 30px !important;
   border-radius: 5px;
+  font-family: "Special Elite", cursive;
+  font-size: 38px !important;
 }
 
 .img-history {
   width: 100%;
   border-radius: 30px;
-  box-shadow: 0px 1px 7px 5px #fff3f7;
+  box-shadow: 3px 2px 9px 2px #88f5fb;
 }
 
 .card-link {
@@ -72,7 +74,6 @@
 .card-text {
   font-size: 26px;
   font-family: "Courgette", cursive;
-  font-family: "Josefin Slab", serif;
 }
 
 #slider {
@@ -82,10 +83,11 @@
 }
 
 #slider img {
-  height: 850px;
-  width: 100%;
-  display: block;
+  height: 821px;
+  width: 75%;
   margin: 0px auto;
+  border-radius: 50px;
+  box-shadow: 1px 2px 10px 2px #919191;
 }
 
 .img-slider2 {
@@ -118,10 +120,14 @@
 }
 
 .typewriter {
-  font-size: 28px !important;
-  margin-top: 80px !important;
+  font-size: 70px !important;
+  margin-top: 130px !important;
   font-family: "Courgette", cursive;
-  font-family: "Josefin Slab", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.carousel-control-next, .carousel-control-prev {
+  width: 50% !important;
 }
 
 .accordion-item {
@@ -130,8 +136,9 @@
 }
 
 .accordion-button {
-  font-family: "Josefin Slab", serif;
-  font-size: 29px !important;
+  font-family: "Courgette", cursive;
+  color: #707070 !important;
+  font-size: 25px !important;
 }
 
 .accordion-button:hover {
@@ -163,11 +170,12 @@
 #h4-accordion {
   color: deeppink;
   margin-bottom: 30px;
-  width: 23%;
   margin: 0px auto;
   height: 35px;
   margin-bottom: 80px;
   border-radius: 5px;
+  font-family: "Special Elite", cursive;
+  font-size: 38px !important;
 }
 
 .red-story {

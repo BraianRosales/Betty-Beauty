@@ -1,15 +1,15 @@
-.nav{
-  font-size: 28px;
+.nav {
+  font-size: 30px;
   margin-right: 100px;
   font-weight: 400;
-  font-family: "Courgette", cursive;
-  font-family: "Josefin Slab", serif;
+  font-family: "Special Elite", cursive;
 }
 
 .navbar {
   font-size: 26px;
   padding-bottom: 0px !important;
-  box-shadow: 1px 2px 5px gainsboro!important;
+  box-shadow: 1px 2px 5px gainsboro !important;
+  background-color: aliceblue;
 }
 
 .nav-link {
@@ -17,14 +17,13 @@
   text-shadow: 4px 1px 5px gainsboro;
 }
 
-.nav-link:hover{
+.nav-link:hover {
   color: aqua !important;
   text-shadow: 2px 1px 2px darkblue;
 }
 
 .brand {
   margin-top: -25px;
-  width: 30%;
+  width: 35%;
+  margin-left: -15px;
 }
-
-

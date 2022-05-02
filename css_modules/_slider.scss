@@ -5,10 +5,11 @@
 }
 
 #slider img {
-  height: 850px;
-  width: 100%;
-  display: block;
+  height: 821px;
+  width:75%;
   margin: 0px auto;
+  border-radius: 50px;
+  box-shadow: 1px 2px 10px 2px #919191;
 }
 
 .img-slider2 {
@@ -41,8 +42,12 @@
 }
 
 .typewriter {
-  font-size: 28px!important;
-  margin-top: 80px !important;
+  font-size: 70px !important;
+  margin-top: 130px !important;
   font-family: "Courgette", cursive;
-  font-family: "Josefin Slab", serif;
+  font-family: "Dancing Script", cursive;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 50%!important;
 }

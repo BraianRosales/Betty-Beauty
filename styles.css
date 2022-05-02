@@ -1,12 +1,86 @@
 @charset "UTF-8";
 
 /* products */
+.contenedorProducts{
+  padding-top: 3em; 
+  margin-top: 3em; 
+  margin-bottom: 5em;
+}
+
+.kit{
+  height: 300px;
+}
+
+#cardKit{
+  padding-left: 1em;
+  padding-left: 0.5em;
+}
+
+#cardKit1{
+  float: left; 
+  width: 18rem;
+}
+
+#cardKit2{
+  width: 19rem;
+}
+
+#cardKit4 {
+  width: 17rem;
+}
+
 .card{
   float: left;
   width: 19rem;
   /* display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 20px; */
+}
+
+#titleCategory{
+  width: 150px;
+  height: 33px;
+  text-align: center;
+  margin-block-end: 0.5em !important;
+}
+
+#titlePersonal {
+  width: 200px;
+  height: 33px;
+  text-align: center;
+  margin-block-end: 0.5em !important;
+}
+
+.cardContainer1{
+  margin-top: 0.5em !important;
+}
+
+.cardContainer2{
+  margin-top: 1.5em;
+}
+
+.queryPrice, .queryPrice2, .queryPrice4{
+  text-align: center;
+}
+
+.queryPrice2{
+  margin-top: 1.5em;
+}
+
+.queryPrice4{
+  margin-top: 2.5em;
+}
+
+.btnCategory{
+  height: 40px;
+  width: 260px;
+}
+
+.btnCategory1{
+  height: 40px;
+  width: 240px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 
 footer{
@@ -17,6 +91,8 @@ footer{
   width: 50px;
 }
 
+
+/* FIN */
 
 .navbar {
   font-size: 22px;

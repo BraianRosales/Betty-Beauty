@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Betty Beauty</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
     <script src="main.js"></script>
   </head>
@@ -175,48 +176,48 @@
       </div>
       <!-- Historia fin-->
       <!-- Productos -->
-      <div class="container-fluid" style="margin-top: 3em; margin-bottom: 3em; background-color: aqua">
-        <div class="card">
-          <img src="./images/img-products/img-s4.jpeg" class="card-img-top" style="height: 405px" alt="kitbebe">
+      <div class="container-fluid contenedorProducts">
+        <div class="card" id="cardKit">
+          <img src="./images/img-products/img-s4.jpeg" class="card-img-top kit" alt="kitbebe">
           <div class="card-body">
-            <h5 class="card-title">Kits para bebes</h5>
-            <p class="card-text">Contiene: 1 babero, 1 babita o toalla de lactancia, 1 portachupete y 1 bolsa para guardar todo.</p>
-            <p class="card-text" style="text-align: center;" >Consultar precio</p>
-            <a href="#" class="btn btn-primary" style="width: 260px ; height: 40px;">Ver categoria Bebes</a>
+            <h5 class="card-title" id="titleCategory" data-aos="zoom-out" data-aos-duration="3000">Kits para bebes</h5>
+            <p class="card-text cardContainer">Contiene: 1 babero, 1 babita o toalla de lactancia, 1 portachupete y 1 bolsa para guardar todo.</p>
+            <p class="card-text queryPrice" >Consultar precio</p>
+            <a href="#" class="btn btn-primary btnCategory" >Ver categoría Bebes</a>
           </div>
         </div>
-        <div class="card" style=" float: left ; width: 19rem;">
-          <img src="./images/img-products/cuidadofacial.png" class="card-img-top" alt="kit facial">
+        <div class="card" id="cardKit1">
+          <img src="./images/img-products/cuidadofacial.png" class="card-img-top kit" alt="kit facial">
           <div class="card-body" id="card2">
-            <h5 class="card-title">Kit Facial</h5>
-            <p class="card-text">Contiene: 1 toalla, 3 pads suaves, 3 pads exfoliantes, 1 Vincha de toalla y 1 bolsa para guardar todo.</p>
-            <p class="card-text" style="text-align: center;">Consultar precio</p>
-            <a href="#" class="btn btn-primary" style="width: 260px ; height: 43px;">Ver categoria productos faciales</a>
+            <h5 class="card-title" id="titleCategory" data-aos="zoom-out" data-aos-duration="3000">Kit Facial</h5>
+            <p class="card-text cardContainer1">Contiene: 1 toalla, 3 pads suaves, 3 pads exfoliantes, 1 Vincha de toalla y 1 bolsa para guardar todo.</p>
+            <p class="card-text queryPrice">Consultar precio</p>
+            <a href="#" class="btn btn-primary btnCategory">Ver categoría productos faciales</a>
           </div>
         </div>
-        <div class="card" style=" float: left; width: 19rem;">
-          <img src="./images/img-products/cuidadomujer.png" class="card-img-top" alt="...">
+        <div class="card" id="cardKit2">
+          <img src="./images/img-products/cuidadomujer.png" class="card-img-top kit" alt="kit cuidado mujer">
           <div class="card-body">
-            <h5 class="card-title">Cuidado personal</h5>
-            <p class="card-text" style="margin-top: 1.5em; ">Combo: turbante , una vincha y 3 pads.</p>
-            <p class="card-text" style="margin-top: 1.5em; text-align: center;">Consultar precio</p>
-            <a href="#" class="btn btn-primary" style="width: 260px ; height: 43px;">Ver categoria cuidado personal</a>
+            <h5 class="card-title" id="titlePersonal" data-aos="zoom-out" data-aos-duration="3000">Cuidado personal</h5>
+            <p class="card-text cardContainer2">Contiene: un turbante , una vincha y 3 pads.</p>
+            <p class="card-text queryPrice2">Consultar precio</p>
+            <a href="#" class="btn btn-primary btnCategory">Ver categoría cuidado personal</a>
           </div>
         </div>
-        <div class="card" style=" width: 19rem;">
-          <img src="./images/img-products/cuidadopersonal.png" class="card-img-top" alt="...">
+        <div class="card" id="cardKit4">
+          <img src="./images/img-products/cuidadopersonal.png" class="card-img-top kit" alt="kit cuidado personal">
           <div class="card-body">
-            <h5 class="card-title">Kit Seda</h5>
-            <p class="card-text">Contiene: Funda de almohada, Cofia de satén y un antifaz.</p>
-            <p class="card-text" style="margin-top: 2.5em; text-align: center;">Consultar precio</p>
-            <a href="#" class="btn btn-primary" style="width: 280px ; height: 40px; padding-right: 2px; padding-left: 2px;">Ver categoria productos de seda</a>
+            <h5 class="card-title" id="titleCategory" data-aos="zoom-out" data-aos-duration="3000">Kit Seda</h5>
+            <p class="card-text cardContainer">Contiene: Funda de almohada, Cofia de satén y un antifaz.</p>
+            <p class="card-text queryPrice4">Consultar precio</p>
+            <a href="#" class="btn btn-primary btnCategory1">Ver categoría seda</a>
           </div>
         </div>
       </div>
       <hr>
   
-      <div id="scrollspyHeading2">Productos</div>
-      <p>...</p>
+      <!-- <div id="scrollspyHeading2">Productos</div>
+      <p>...</p> -->
 
       <!-- preguntas frecuentes -->
       <div id="scrollspyHeading3"></div>
@@ -391,17 +392,20 @@
       <div class="row">
           <div class="col-lg-12 col-xs-12 foot">
               <p class="titleFoot text-center pb-2 pt-3">Seguinos en 
-                  <img class="redes mr-lg-1" src="images/img-products/icono-ig.png" href="https://www.instagram.com/_betty.beauty/" alt="logo instagram" title="isntagram">
-                  <img class="redes mr-lg-1" src="images/img-products/icono-face.png" href="https://www.facebook.com/1977BettyBeauty" alt="logo facebook" title="facebook">
+                  <img class="redes" src="images/img-products/icono-ig.png" href="https://www.instagram.com/_betty.beauty/" alt="logo instagram" title="isntagram">
+                  <img class="redes" src="images/img-products/icono-face.png" href="https://www.facebook.com/1977BettyBeauty" alt="logo facebook" title="facebook">
               </p>
           </div>
       </div>  
-  <!-- fin footer -->      
   </footer>
-
+  <!-- fin footer -->      
     <!-- here begin the next view-->
     <div class="container-fluid" id="content"></div>
 
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
   </body>
 </html>

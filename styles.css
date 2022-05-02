@@ -1,24 +1,38 @@
 @charset "UTF-8";
+.nav {
+  font-size: 28px;
+  margin-right: 100px;
+  font-weight: 400;
+  font-family: "Courgette", cursive;
+  font-family: "Josefin Slab", serif;
+}
+
 .navbar {
-  font-size: 22px;
+  font-size: 26px;
   padding-bottom: 0px !important;
+  box-shadow: 1px 2px 5px gainsboro !important;
 }
 
 .nav-link {
   color: #2f2f2f !important;
-  text-shadow: 4px 1px 5px #a6a8a8;
+  text-shadow: 4px 1px 5px gainsboro;
+}
+
+.nav-link:hover {
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
 
 .brand {
   margin-top: -25px;
-  margin-left: -40px;
-  width: 35%;
+  width: 30%;
 }
 
 .historyContent {
   margin: 0px auto;
-  width: 100%;
+  width: 95%;
   font-size: 20px;
+  margin: 0px auto !important;
 }
 
 .card-history {
@@ -27,8 +41,7 @@
 }
 
 .card-title {
-  text-shadow: 4px 1px 5px darkgray;
-  width: 21%;
+  width: 20%;
   margin: 0px auto;
   height: 33px;
   margin-bottom: 30px !important;
@@ -38,6 +51,7 @@
 .img-history {
   width: 100%;
   border-radius: 30px;
+  box-shadow: 0px 1px 7px 5px #fff3f7;
 }
 
 .card-link {
@@ -55,6 +69,12 @@
   color: deeppink;
 }
 
+.card-text {
+  font-size: 26px;
+  font-family: "Courgette", cursive;
+  font-family: "Josefin Slab", serif;
+}
+
 #slider {
   height: 815px;
   overflow: hidden;
@@ -62,8 +82,15 @@
 }
 
 #slider img {
-  height: 815px;
-  width: 85%;
+  height: 850px;
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.img-slider2 {
+  height: 1200px !important;
+  width: 100%;
   display: block;
   margin: 0px auto;
 }
@@ -86,29 +113,35 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #fd5cb3 !important;
+  background-color: aqua !important;
+  height: 5px !important;
+}
+
+.typewriter {
+  font-size: 28px !important;
+  margin-top: 80px !important;
+  font-family: "Courgette", cursive;
+  font-family: "Josefin Slab", serif;
 }
 
 .accordion-item {
   border: none !important;
-  border-bottom: 1px solid #adfbfe !important;
+  border-bottom: 2px solid #b7f9fa !important;
 }
 
 .accordion-button {
-  color: black !important;
-  font-size: 19px !important;
+  font-family: "Josefin Slab", serif;
+  font-size: 29px !important;
 }
 
 .accordion-button:hover {
-  color: #0adde4 !important;
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
 
 .accordion-button:focus {
-  color: #0adde4 !important;
-}
-
-.accordion-body:focus {
-  border-bottom: 2px solid aqua;
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
 
 .accordion-button:focus {
@@ -130,11 +163,10 @@
 #h4-accordion {
   color: deeppink;
   margin-bottom: 30px;
-  text-shadow: 4px 1px 5px darkgray;
-  width: 24%;
+  width: 23%;
   margin: 0px auto;
   height: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   border-radius: 5px;
 }
 
@@ -11273,7 +11305,7 @@ textarea.form-control-lg {
 
 #content {
   height: 100vh;
-  width: 85%;
+  width: 100%;
   margin: 0px auto;
 }
 
@@ -11290,13 +11322,13 @@ textarea.form-control-lg {
   display: block;
   text-align: center;
   margin-bottom: 40px !important;
-  color: #07dce3;
+  color: deeppink !important;
+  text-shadow: 1px 2px 5px #a67399;
   font-size: 26px;
   margin: 0px auto;
   white-space: nowrap;
   border-right: 4px solid;
   width: 25ch;
-  text-shadow: 4px 1px 5px #c6c6c6;
   animation: typing 2s steps(28), blink 0.5s infinite step-end alternate;
   overflow: hidden;
 }
@@ -11312,7 +11344,7 @@ textarea.form-control-lg {
   }
 }
 .text {
-  background-image: linear-gradient(transparent 0%, transparent 90%, #32eff6 90%, #32eff6 100%);
+  background-image: linear-gradient(transparent 0%, transparent 90%, #36f1f1 90%, #36f1f1 100%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   background-position-x: right;
@@ -11352,20 +11384,23 @@ textarea.form-control-lg {
 }
 
 .link-effect {
+  font-family: "Josefin Slab", serif;
+  font-size: 23px;
   position: relative;
   color: #07dce3;
   text-decoration: none;
   z-index: 1;
   padding: 0 0.2rem;
   transition: color 0.2s;
+  padding: 2px;
 }
 
 .link-effect::after {
   content: "";
   z-index: -1;
   position: absolute;
-  inset: 92% 0 0 0;
-  background-color: #5ce1e6;
+  inset: 95% 0 0 0;
+  background-color: #73e9e9;
   transition: inset 0.2s;
 }
 

@@ -5,8 +5,15 @@
 }
 
 #slider img {
-  height: 815px;
-  width: 85%;
+  height: 850px;
+  width: 100%;
+  display: block;
+  margin: 0px auto;
+}
+
+.img-slider2 {
+  height: 1200px !important;
+  width: 100%;
   display: block;
   margin: 0px auto;
 }
@@ -29,5 +36,13 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #fd5cb3 !important;
+  background-color: aqua !important;
+  height: 5px !important;
+}
+
+.typewriter {
+  font-size: 28px!important;
+  margin-top: 80px !important;
+  font-family: "Courgette", cursive;
+  font-family: "Josefin Slab", serif;
 }

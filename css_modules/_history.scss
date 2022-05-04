@@ -1,7 +1,8 @@
 .historyContent {
   margin: 0px auto;
-  width: 100%;
+  width: 85%;
   font-size: 20px;
+  margin: 0px auto !important;
 }
 
 .card-history {
@@ -10,18 +11,18 @@
 }
 
 .card-title {
-  text-shadow: 4px 1px 5px darkgray;
-  width: 21%;
   margin: 0px auto;
   height: 33px;
-  margin-bottom: 30px!important;
+  margin-bottom: 30px !important;
   border-radius: 5px;
+  font-family: "Special Elite", cursive;
+  font-size: 38px !important;
 }
 
 .img-history {
   width: 100%;
   border-radius: 30px;
-  box-shadow: 2px 2px 5px 3px gainsboro;
+  box-shadow: 3px 2px 9px 2px #88f5fb;
 }
 
 .card-link {
@@ -36,6 +37,20 @@
 .col-img-story {
   margin-top: 25px !important;
   text-align: center;
-  color: deeppink;
+  color: #f99dcc;
 }
 
+.card-text-history {
+  font-size: 26px;
+  font-family: "Courgette", cursive;
+}
+
+.section-size{
+  height: 90vh !important;
+}
+
+.redes{
+  width: 5%;
+  margin-left: 8px;
+  margin-right: 8px;
+}

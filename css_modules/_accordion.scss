@@ -1,25 +1,23 @@
 .accordion-item {
   border: none !important;
-  border-bottom: 1px solid #adfbfe !important;
+  border-bottom: 2px solid #b7f9fa !important;
 }
 
 .accordion-button {
-  color: black !important;
-  font-size: 19px !important;
+  font-family: "Courgette", cursive;
+  color: rgb(112, 112, 112) !important;
+  font-size: 25px !important;
 }
 
 .accordion-button:hover {
-  color: #0adde4 !important;
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
 
 .accordion-button:focus {
-  color: #0adde4 !important;
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
-
-.accordion-body:focus{
-  border-bottom: 2px solid aqua;
-}
-
 
 .accordion-button:focus {
   box-shadow: inherit !important;
@@ -38,14 +36,14 @@
 }
 
 #h4-accordion {
-  color: deeppink;
+  color: #f99dcc;
   margin-bottom: 30px;
-  text-shadow: 4px 1px 5px darkgray;
-  width: 24%;
   margin: 0px auto;
   height: 35px;
-  margin-bottom: 30px;
+  margin-bottom: 80px;
   border-radius: 5px;
+  font-family: "Special Elite", cursive;
+  font-size: 38px !important;
 }
 
 .red-story {
@@ -55,4 +53,8 @@
 .accordion-button:not(.collapsed)::after {
   background-color: aqua;
   border-radius: 5px;
+}
+
+ul li {
+  text-align: left;
 }

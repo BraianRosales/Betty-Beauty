@@ -1,0 +1,49 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  margin: 24px;
+}
+
+.card-img,
+.card-img-top {
+  height: 400px;
+}
+
+[data-aos^="zoom"][data-aos^="zoom"].aos-animate {
+  color: #54e8e8;
+  font-size: 35px !important;
+  text-align: center;
+}
+
+.card-text {
+  font-size: 24px;
+  font-family: "Courgette", cursive;
+  height: 155px;
+}
+
+.btn {
+  display: block !important;
+  margin: 0px auto !important;
+}
+
+.btn-primary {
+  color: white !important;
+  background-color: #eeacce !important;
+  border-color: #f2a3ca !important;
+  font-family: "Satisfy", cursive;
+  font-size: 24px !important;
+}
+
+.btn-primary:hover {
+  box-shadow: 1px 2px 4px 2px #a6a6a6 !important;
+}
+
+#productos {
+  padding-top: 20px;
+  padding-bottom: 70px;
+}
+
+#titlePersonal {
+  font-size: 33px !important;
+}

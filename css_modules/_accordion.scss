@@ -36,7 +36,7 @@
 }
 
 #h4-accordion {
-  color: deeppink;
+  color: #f99dcc;
   margin-bottom: 30px;
   margin: 0px auto;
   height: 35px;
@@ -53,4 +53,8 @@
 .accordion-button:not(.collapsed)::after {
   background-color: aqua;
   border-radius: 5px;
+}
+
+ul li {
+  text-align: left;
 }

@@ -5,8 +5,16 @@
 }
 
 #slider img {
-  height: 815px;
-  width: 85%;
+  height: 821px;
+  width:75%;
+  margin: 0px auto;
+  border-radius: 50px;
+  box-shadow: 1px 2px 10px 2px #919191;
+}
+
+.img-slider2 {
+  height: 1200px !important;
+  width: 100%;
   display: block;
   margin: 0px auto;
 }
@@ -29,5 +37,17 @@
 }
 
 .carousel-indicators [data-bs-target] {
-  background-color: #fd5cb3 !important;
+  background-color: aqua !important;
+  height: 5px !important;
+}
+
+.typewriter {
+  font-size: 70px !important;
+  margin-top: 130px !important;
+  font-family: "Courgette", cursive;
+  font-family: "Dancing Script", cursive;
+}
+
+.carousel-control-next, .carousel-control-prev{
+  width: 50%!important;
 }

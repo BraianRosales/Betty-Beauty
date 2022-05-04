@@ -1,17 +1,29 @@
+.nav {
+  font-size: 30px;
+  margin-right: 100px;
+  font-weight: 400;
+  font-family: "Special Elite", cursive;
+}
+
 .navbar {
-  font-size: 22px;
+  font-size: 26px;
   padding-bottom: 0px !important;
+  box-shadow: 1px 2px 5px gainsboro !important;
+  background-color: aliceblue;
 }
 
 .nav-link {
   color: #2f2f2f !important;
-  text-shadow: 4px 1px 5px #a6a8a8;
+  text-shadow: 4px 1px 5px gainsboro;
+}
+
+.nav-link:hover {
+  color: aqua !important;
+  text-shadow: 2px 1px 2px darkblue;
 }
 
 .brand {
   margin-top: -25px;
-  margin-left: -40px;
-  width: 35%;
+  width: 30%;
+  margin-left: -15px;
 }
-
-

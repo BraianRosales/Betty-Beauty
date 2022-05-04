@@ -1,7 +1,8 @@
 .historyContent {
   margin: 0px auto;
-  width: 100%;
+  width: 85%;
   font-size: 20px;
+  margin: 0px auto !important;
 }
 
 .card-history {
@@ -10,17 +11,18 @@
 }
 
 .card-title {
-  text-shadow: 4px 1px 5px darkgray;
-  width: 21%;
   margin: 0px auto;
   height: 33px;
-  margin-bottom: 30px!important;
+  margin-bottom: 30px !important;
   border-radius: 5px;
+  font-family: "Special Elite", cursive;
+  font-size: 38px !important;
 }
 
 .img-history {
   width: 100%;
   border-radius: 30px;
+  box-shadow: 3px 2px 9px 2px #88f5fb;
 }
 
 .card-link {
@@ -38,3 +40,7 @@
   color: deeppink;
 }
 
+.card-text {
+  font-size: 26px;
+  font-family: "Courgette", cursive;
+}

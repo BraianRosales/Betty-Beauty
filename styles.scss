@@ -11,13 +11,13 @@
 
 #content {
   height: 100vh;
-  width: 85%;
+  width: 100%;
   margin: 0px auto;
 }
 
 // sections
 
-.section-size{
+.section-size {
   height: 100vh;
 }
 
@@ -32,14 +32,13 @@
   display: block;
   text-align: center;
   margin-bottom: 40px !important;
-  color: #07dce3;
+  color: deeppink !important;
+  text-shadow: 1px 2px 5px #a67399;
   font-size: 26px;
   margin: 0px auto;
-
   white-space: nowrap;
   border-right: 4px solid;
   width: 25ch;
-  text-shadow: 4px 1px 5px #c6c6c6;
 
   animation: typing 2s steps(28), blink 0.5s infinite step-end alternate;
   overflow: hidden;
@@ -63,8 +62,8 @@
   background-image: linear-gradient(
     transparent 0%,
     transparent 90%,
-    #32eff6 90%,
-    #32eff6 100%
+    rgb(54, 241, 241) 90%,
+    rgb(54, 241, 241) 100%
   );
 
   background-repeat: no-repeat;
@@ -118,20 +117,23 @@
 // efecto link.
 
 .link-effect {
+  font-family: "Josefin Slab", serif;
+  font-size: 23px;
   position: relative;
   color: #07dce3;
   text-decoration: none;
   z-index: 1;
   padding: 0 0.2rem;
   transition: color 0.2s;
+  padding: 2px;
 }
 
 .link-effect::after {
   content: "";
   z-index: -1;
   position: absolute;
-  inset: 92% 0 0 0;
-  background-color: #5ce1e6;
+  inset: 95% 0 0 0;
+  background-color: rgb(115, 233, 233);
   transition: inset 0.2s;
 }
 
@@ -142,4 +144,3 @@
 .link-effect:hover::after {
   inset: 0 0 0 0;
 }
-
